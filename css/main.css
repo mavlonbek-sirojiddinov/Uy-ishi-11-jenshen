@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Lato', sans-serif;
+}
+.site-header {
+  background-image: url(../img/2023-02-11_22-55-11.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 100%;
+  max-width: 1403px;
+  margin: 0 auto;
+}
+.navbar {
+  padding-top: 50px;
+  margin-bottom: 255.46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-img {
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.nav-item {
+  margin-left: 30px;
+}
+.nav-item-link {
+  text-decoration: none;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.nav-item-link-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 234px;
+  height: 61px;
+  background: #167526;
+  border-radius: 5px;
+  color: white;
+}
+.nav-select {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.28px;
+  color: #000000;  
+}
+
+/* ========== */
+
+.hero-text {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.hero-title {
+  margin-bottom: 42px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 79px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.hero-last-wrapper {
+  display: block;
+  width: 0.1px;
+  height: 0.1px;
+  margin-top: 321px;
+}
+
+/* ========== */
+
+.card-section {
+  margin-top: 83px;
+  margin-bottom: 40.98px;
+  background-image: url(../img/card-kernay.png);
+  background-repeat: no-repeat;
+  background-position: calc(95% + 0%);
+}
+.container {
+}
+.card-form {
+  width: 572px;
+  height: 574px;
+  padding: 40px 0 44.52px;
+  background-image: url(../img/Group\ 32.svg);
+  background-position: calc(-3px + 50%) 70%;
+  background-repeat: no-repeat;
+  background-color: #770613;
+  border-radius: 20px;
+}
+.card-wrapper {
+}
+.card-title {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 65px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 60.61px;
+}
+.card-text {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.2587px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 28.69px;
+}
+.card-name-inp {
+  Width: 406.91px;
+  Height: 67.82px;
+  margin: 0 auto;
+  margin-bottom: 37.82px;
+  background: #89363D;
+  border-radius: 13.042px;
+  padding: 0 0 0 27.49px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.2587px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.card-number-inp {
+  Width: 406.91px;
+  Height: 67.82px;
+  margin: 0 auto;
+  margin-bottom: 44.34px;
+  background: #89363D;
+  border-radius: 13.042px;
+  padding: 0 0 0 27.49px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.2587px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.card-btn {
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.2587px;
+  line-height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 408.21px;
+  height: 67.82px;
+  background: #167526;
+  box-shadow: -1.3042px -1.3042px 1.3042px rgba(0, 0, 0, 0.09);
+  border-radius: 6.52098px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* ========== */
+
+.shop-section {
+  background-image: url(../img/shop-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 228.83px 0 152.19px;
+}
+
+.shop-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jshen-section {
+}
+.container {
+}
+.jshen-wrap1 {
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
+.jshen-wrap1-text {
+  width: 578px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.jshen-wrap2 {
+  width: 92%;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 137px;
+}
+
+/* ========== */
