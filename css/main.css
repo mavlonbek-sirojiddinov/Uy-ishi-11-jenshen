@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 body {
   font-family: 'Roboto Slab', serif;
@@ -26,8 +27,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.nav-img {
 }
 .nav-list {
   display: flex;
@@ -114,8 +113,6 @@ body {
   background-repeat: no-repeat;
   background-position: calc(95% + 0%);
 }
-.container {
-}
 .card-form {
   width: 572px;
   height: 574px;
@@ -125,8 +122,6 @@ body {
   background-repeat: no-repeat;
   background-color: #770613;
   border-radius: 20px;
-}
-.card-wrapper {
 }
 .card-title {
   font-family: 'Roboto Slab';
@@ -224,16 +219,10 @@ body {
   background-size: cover;
   padding: 228.83px 0 152.19px;
 }
-
 .shop-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.jshen-section {
-}
-.container {
 }
 .jshen-wrap1 {
   width: 92%;
@@ -267,3 +256,117 @@ body {
 }
 
 /* ========== */
+
+.ramka-section {
+  margin-bottom: 50px;
+}
+
+/* ========== */
+
+.home-section {
+  padding-bottom: 410px;
+  background-image: url(../img/all-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-in-wrapper {
+  transform: translateY(280px);
+}
+.home-title {
+  margin-bottom: 30px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.home-text {
+  width: 671px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+/* ========== */
+
+.kosa-section {
+  background-image: url(../img/kosa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 103.13px 0 358.7px;
+}
+
+.kosa-title {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 65px;
+  display: flex;
+  align-items: center;
+  color: #4D3300;
+  margin-bottom: 77px;
+}
+
+.kosa-list {
+  display: flex;
+  justify-content: space-between;
+  width: 732px;
+  flex-wrap: wrap;
+}
+.kosa-item {
+  margin-bottom: 54px;
+}
+.kosa-text {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #4D3300;
+}
+
+/* ========== */
+
+.tuproq-section {
+  background-image: url(../img/tuproq-back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 89px 0 56px;
+}
+.tuproq-wrapper {
+  width: 743px;
+  margin-left: auto;
+}
+.tuproq-title {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.tuproq-text {
+  width: 743px;  
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
